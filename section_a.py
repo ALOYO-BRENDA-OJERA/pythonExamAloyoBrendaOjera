@@ -62,15 +62,14 @@ if __name__ == "__main__":
 
 
 
-# b)(i)
 def calculate_triangle_area(base, height):
-    #Calculate the area of a triangle.
+    # Calculate the area of a triangle.
     return (1/2) * base * height
 
 def main():
-    # Input base and height from the user
-    base = float(input("Enter the base of the triangle: "))
-    height = float(input("Enter the height of the triangle: "))
+    # Assign base and height values given in the question
+    base = 2
+    height = 3
 
     # Calculate the area of the triangle
     area = calculate_triangle_area(base, height)
@@ -80,7 +79,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
     
     #(ii)python function to sum all numbers in a list
     
